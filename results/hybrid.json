@@ -1,0 +1,74 @@
+{
+  "dense": {
+    "metrics": {
+      "recall_at_1": 0.8825,
+      "recall_at_5": 0.9658333333333333,
+      "recall_at_10": 0.9725,
+      "mrr_at_10": 0.9187751322751323,
+      "ndcg_at_10": 0.9322219800005949,
+      "per_category_recall_at_1": {
+        "abbreviation": 0.99,
+        "irrelevant_words": 0.84,
+        "missing_region": 0.945,
+        "misspelling": 0.91,
+        "reorder": 0.99,
+        "transliteration": 0.62
+      }
+    },
+    "p50_ms": 0.399
+  },
+  "bm25": {
+    "metrics": {
+      "recall_at_1": 0.7891666666666667,
+      "recall_at_5": 0.8325,
+      "recall_at_10": 0.8533333333333334,
+      "mrr_at_10": 0.8090390211640212,
+      "ndcg_at_10": 0.8196168941352426,
+      "per_category_recall_at_1": {
+        "abbreviation": 0.995,
+        "irrelevant_words": 0.975,
+        "missing_region": 0.98,
+        "misspelling": 0.7,
+        "reorder": 1.0,
+        "transliteration": 0.085
+      }
+    },
+    "p50_ms": 14.524
+  },
+  "hybrid": {
+    "metrics": {
+      "recall_at_1": 0.8308333333333333,
+      "recall_at_5": 0.9083333333333333,
+      "recall_at_10": 0.9333333333333333,
+      "mrr_at_10": 0.865199074074074,
+      "ndcg_at_10": 0.8816120285965993,
+      "per_category_recall_at_1": {
+        "abbreviation": 1.0,
+        "irrelevant_words": 0.945,
+        "missing_region": 0.975,
+        "misspelling": 0.82,
+        "reorder": 1.0,
+        "transliteration": 0.245
+      }
+    },
+    "p50_ms": 14.988
+  },
+  "hybrid+rerank": {
+    "metrics": {
+      "recall_at_1": 0.8375,
+      "recall_at_5": 0.8691666666666666,
+      "recall_at_10": 0.8908333333333334,
+      "mrr_at_10": 0.8520750661375661,
+      "ndcg_at_10": 0.8611591381516112,
+      "per_category_recall_at_1": {
+        "abbreviation": 1.0,
+        "irrelevant_words": 0.98,
+        "missing_region": 0.98,
+        "misspelling": 0.97,
+        "reorder": 1.0,
+        "transliteration": 0.095
+      }
+    },
+    "p50_ms": 18.353
+  }
+}
