@@ -1,6 +1,8 @@
 # Address Normalization via Vector Search (FIAS/GAR)
 
-Course project — Deep Learning for Search 2026, Innopolis.
+Group Course project — Deep Learning for Search 2026, Innopolis.
+
+
 
 **Task.** Dirty free-text Russian address → canonical GAR/FIAS record (FIAS id +
 structure). Framed as **retrieval / matching** (not LLM rewriting). The retriever
